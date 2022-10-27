@@ -131,8 +131,8 @@ button {
 }
 
 .modal {
-    min-width: 528px;
-    min-height: 581px;
+    width: 528px;
+    height: 581px;
     background-color: #FFFFFF;
     position: absolute;
     padding: 17px 17px;
@@ -171,6 +171,10 @@ button {
     fill: #2196F3;
 }
 
+.modal-close {}
+
+.modal-close-tap {}
+
 .modal-title {
     font-family: 'Roboto';
     font-style: normal;
@@ -179,7 +183,7 @@ button {
     line-height: 23px;
     text-align: center;
     letter-spacing: 0.03em;
-    margin-bottom: 30px;
+    margin-bottom: 12px;
 
     color: var(--main-subtitle-color);
 }
@@ -214,6 +218,8 @@ button {
     left: 12px;
     transition: var(--transition-timing) var(--cubic);
 }
+
+.modal-input-icon:focus {}
 
 .modal-lable-text {
     font-family: 'Roboto';
@@ -282,8 +288,6 @@ button {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-
-    margin-bottom: 30px;
 }
 
 .modal-field-comment {
@@ -350,20 +354,17 @@ button {
 }
 
 .modal-btn {
-    justify-content: center;
-
-    width: 200px;
-    height: 50px;
-
+    display: block;
+    min-width: 200px;
+    padding: 10px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 30px;
+    margin: 0 auto;
+    margin-top: 30px;
 
-    display: flex;
-    align-items: center;
-    text-align: center;
     letter-spacing: 0.06em;
 
     color: #FFFFFF;
@@ -419,6 +420,8 @@ button {
     display: flex;
     margin-left: 93px;
 }
+
+.header-item {}
 
 .header-list .header-item:not(:last-child) {
     margin-right: 50px;
@@ -504,6 +507,8 @@ button {
     background-size: cover;
 }
 
+.hero .container {}
+
 .hero-title {
     font-family: 'Roboto';
     font-weight: 900;
@@ -576,6 +581,8 @@ button {
     fill: currentColor;
 }
 
+.color-logo {}
+
 .features-list .features-item:not(:last-child) {
     margin-right: 30px;
 }
@@ -615,6 +622,8 @@ button {
     list-style-type: none;
     display: flex;
 }
+
+.we-do-photo {}
 
 .we-do-list .we-do-photo:not(:last-child) {
     margin-right: 30px;
@@ -914,7 +923,7 @@ button {
 }
 
 .footer-news-email {
-    margin-left: 93px;
+    margin-left: auto;
 }
 
 .footer-news-email input {
@@ -945,9 +954,11 @@ button {
     color: #FFFFFF;
 }
 
-.footer-input-news {
+.news-form {
     margin-top: 20px;
 }
+
+.news-lable {}
 
 .footer-icon-news {
     margin-left: 10px;
@@ -964,13 +975,14 @@ button {
 
     align-items: center;
     justify-content: center;
-    margin-left: 28px;
+    margin-left: 12px;
     background-color: var(--main-order-service);
     box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
     border-radius: 4px;
     color: var(--main-navi-btn-background);
-    transition: box-shadow var(--cubic) var(--transition-timing),var(--cubic) var(--transition-timing);
+    transition: box-shadow var(--cubic) var(--transition-timing), var(--cubic) var(--transition-timing);
 }
+
 .footer-btn-news:focus,
 .footer-btn-news:hover {
     background: #188CE8;
@@ -1055,6 +1067,11 @@ button {
     /* transition: var(--cubic) var(--transition-timing); */
 }
 
+.portfolio-project:hover {
+    /* border: 1px solid #EEEEEE; */
+    /* box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16); */
+}
+
 .portfolio {
     padding: 94px 0;
 }
@@ -1109,6 +1126,8 @@ button {
     opacity: 1;
     transition: var(--cubic) var(--transition-timing);
 }
+
+.portfolio-images {}
 
 .portfolio-img-position {
     position: relative;
