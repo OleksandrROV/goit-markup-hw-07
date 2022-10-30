@@ -1,4 +1,4 @@
-html {
+/* html {
     box-sizing: border-box;
 }
 
@@ -27,26 +27,26 @@ body {
 
     --transition-timing: 250ms;
     --cubic: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
-.list-styles {
+/* .list-styles {
     list-style: none;
     padding-left: 0;
     margin: 0;
-}
+} */
 
-.header-link:hover,
+/* .header-link:hover,
 .header-link:focus {
     color: #2196f3;
-}
+} */
 
-.link-text {
+/* .link-text {
     text-decoration: none;
     color: inherit;
-}
+} */
 
 
-p,
+/* p,
 h1,
 h2,
 h3,
@@ -84,15 +84,15 @@ button {
     cursor: pointer;
     border: none;
     border-radius: 4px;
-}
+} */
 
-.section {
+/* .section {
     padding-top: 94px;
     padding-bottom: 94px;
-}
+} */
 
 
-.visually-hidden {
+/* .visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -103,15 +103,15 @@ button {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-}
+} */
 
-.container {
+/* .container {
     width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
-}
+} */
 
-.backdrop {
+/* .backdrop {
     position: fixed;
     top: 0;
     left: 0;
@@ -122,15 +122,15 @@ button {
     opacity: 1;
     transition: opacity var(--transition-timing) var(--cubic),
         visibility var(--transition-timing) var(--cubic);
-}
+} */
 
-.backdrop.is-hidden {
+/* .backdrop.is-hidden {
     opacity: 0;
     pointer-events: none;
     visibility: hidden;
-}
+} */
 
-.modal {
+/* .modal {
     width: 528px;
     height: 581px;
     background-color: #FFFFFF;
@@ -140,9 +140,9 @@ button {
     left: 50%;
     transform: translate(-50%, -50%) scale(1);
     padding: 40px;
-}
+} */
 
-.model-tap {
+/* .model-tap {
     width: 30px;
     height: 30px;
     border-radius: 50%;
@@ -159,23 +159,23 @@ button {
     border: 1px solid rgba(0, 0, 0, 0.1);
 
     transition: fill var(--cubic) var(--transition-timing);
-}
+} */
 
 
-.tap-modal-close {
+/* .tap-modal-close {
     fill: #000000;
     transition: fill var(--transition-timing) var(--cubic);
-}
+} */
 
-.model-tap:hover>.tap-modal-close {
+/* .model-tap:hover>.tap-modal-close {
     fill: #2196F3;
-}
+} */
 
-.modal-close {}
+/* .modal-close {} */
 
 .modal-close-tap {}
 
-.modal-title {
+/* .modal-title {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -186,14 +186,13 @@ button {
     margin-bottom: 12px;
 
     color: var(--main-subtitle-color);
-}
+} */
 
-.modal-input {
+/* .modal-input {
     width: 100%;
     height: 40px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
-    /* margin-bottom: 28px; */
     padding-left: 42px;
     outline: transparent;
     transition: var(--transition-timing) var(--cubic);
@@ -205,9 +204,9 @@ button {
 
 .modal-input:focus+.modal-input-icon {
     fill: var(--main-order-service);
-}
+} */
 
-.input-wrap {
+/* .input-wrap {
     position: relative;
 }
 
@@ -233,11 +232,11 @@ button {
     letter-spacing: 0.01em;
 
     color: #757575;
-}
+} */
 
 
 
-.modal-field {
+/* .modal-field {
     margin-bottom: 10px;
 }
 
@@ -250,9 +249,9 @@ button {
     padding: 12px 16px;
     outline: transparent;
     transition: var(--transition-timing) var(--cubic);
-}
+} */
 
-.modal-comment:focus {
+/* .modal-comment:focus {
     border: 1px solid #2196F3;
 }
 
@@ -298,9 +297,9 @@ button {
     display: flex;
     justify-content: center;
 
-}
+} */
 
-.privacy-text-link {
+/* .privacy-text-link {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -346,9 +345,9 @@ button {
     background-position: center;
     background-repeat: no-repeat;
     border-color: transparent;
-}
+} */
 
-.modal-btn-container {
+/* .modal-btn-container {
     display: flex;
     justify-content: center;
 }
@@ -378,12 +377,12 @@ button {
     background: #188CE8;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-}
+} */
 
 /* < !-------------------------------------------header--------------------------------------- !> */
 
 
-.main-nav {
+/* .main-nav {
     display: flex;
     align-items: center;
 }
@@ -491,11 +490,11 @@ button {
 .header-tel:hover,
 .header-tel:focus {
     color: var(--main-order-service);
-}
+} */
 
 /* < !-------------HERO--------- !> */
 
-.hero {
+/* .hero {
     margin: 0 auto;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/Img-backraund.jpg);
     background-color: var(--main-background);
@@ -549,12 +548,12 @@ button {
 .hero-btn:hover,
 .hero-btn:focus {
     background-color: #188ce8;
-}
+} */
 
 /* < !--------------FEATURES------------------ !> */
 
 
-.features {
+/* .features {
     padding: 94px 0;
 }
 
@@ -598,12 +597,12 @@ button {
 
 .item-text {
     line-height: 1.71;
-}
+} */
 
 
 /* < !-------------------WE-DO------------------ !> */
 
-.work {
+/* .work {
     padding-top: 0;
 }
 
@@ -648,12 +647,12 @@ button {
     font-weight: 700;
     line-height: 1.14;
     text-transform: uppercase;
-}
+} */
 
 /* < !-------------------TEAM------------------- !> */
 
 
-.team {
+/* .team {
     background: #F5F4FA;
     padding-top: 94px;
     padding-bottom: 94px;
@@ -740,11 +739,11 @@ button {
 .team-address-icon:focus {
     background: var(--main-order-service);
     color: var(--main-btn-color);
-}
+} */
 
 /*--------------------------------------regular customers----------------------------------------*/
 
-.customers {
+/* .customers {
     padding: 94px 0;
 
 }
@@ -790,12 +789,12 @@ button {
 .customers-link-logo:focus {
     color: var(--main-order-service);
     border-color: var(--main-order-service);
-}
+} */
 
 /* < !---------------------FOOTER-------------------- !> */
 
 
-.footer {
+/* .footer {
     background-color: var(--main-background);
     padding-top: 60px;
     padding-bottom: 60px;
@@ -852,9 +851,9 @@ button {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
-}
+} */
 
-.footer-container-icon {
+/* .footer-container-icon {
     margin-left: 70px;
 }
 
@@ -872,9 +871,9 @@ button {
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-}
+} */
 
-.footer-link {
+/* .footer-link {
     display: block;
     font-family: 'Roboto';
     font-weight: 500;
@@ -891,9 +890,9 @@ button {
 .footer-link:hover,
 .footer-link:focus {
     color: #2196f3;
-}
+} */
 
-.footer-address-icon {
+/* .footer-address-icon {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -913,12 +912,12 @@ button {
 .footer-address-icon:hover,
 .footer-address-icon:focus {
     background: #2196f3;
-}
+} */
 
 /* < !------------------------------------ПІДПИШІТЬСЯ НА РОЗСИЛКУ---------------------------------------> */
 
 
-.footer-thumb {
+/* .footer-thumb {
     display: flex;
 }
 
@@ -1007,7 +1006,7 @@ button {
 
 .footer-icon:hover {
     fill: currentColor;
-}
+} */
 
 /*--------------------------------------- Page 2 ---------------------------*/
 
@@ -1017,7 +1016,7 @@ button {
 
 
 
-.navi-list {
+/* .navi-list {
     list-style-type: none;
     display: flex;
     margin-bottom: 50px;
@@ -1058,18 +1057,12 @@ button {
 
 /* ---------------Portfolio------------- */
 
-.progect-description {
+/* .progect-description {
     padding: 20px 24px;
     border-bottom: 1px solid var(--border-color-cards);
     border-right: 1px solid var(--border-color-cards);
     border-left: 1px solid var(--border-color-cards);
 
-    /* transition: var(--cubic) var(--transition-timing); */
-}
-
-.portfolio-project:hover {
-    /* border: 1px solid #EEEEEE; */
-    /* box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16); */
 }
 
 .portfolio {
@@ -1118,7 +1111,6 @@ button {
 .portfolio-link:hover .container-position-portfolio {
     transform: translateY(0);
     opacity: 1;
-    /* transition: var(--cubic) var(--transition-timing); */
 }
 
 .portfolio-link:focus .container-position-portfolio {
@@ -1152,7 +1144,6 @@ button {
     font-weight: 400;
     font-size: 18px;
     line-height: 28px;
-    /* or 156% */
 
     letter-spacing: 0.03em;
 
@@ -1178,4 +1169,4 @@ button {
     letter-spacing: 0.03em;
     color: var(--main-Portfolio-text-color);
 
-}
+} */
