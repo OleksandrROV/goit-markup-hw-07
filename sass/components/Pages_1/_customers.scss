@@ -2,7 +2,7 @@
   padding: 94px 0;
 }
 
-.customers-title {
+.customers__title {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
@@ -14,7 +14,7 @@
   color: #212121;
 }
 
-.customers-logo {
+.customers__logo {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -22,7 +22,7 @@
   margin-top: 50px;
 }
 
-.customers-link-logo {
+.customers__link {
   display: flex;
   width: 170px;
   height: 92px;
@@ -42,6 +42,6 @@
   }
 }
 
-.costomers-img-logo {
+.costomers__img {
   fill: currentColor;
 }

@@ -2,14 +2,6 @@ html {
   box-sizing: border-box;
 }
 
-body {
-  font-family: "roboto", sans-serif;
-  background-color: #ffffff;
-  color: var(--main-Portfolio-text-color);
-  font-size: 14px;
-  letter-spacing: 0.03em;
-}
-
 p,
 h1,
 h2,
@@ -305,21 +297,21 @@ button {
   border-radius: 4px;
 }
 
-.main-nav {
-  display: flex;
-  align-items: center;
-}
-
 .header {
   border-bottom: 1px solid #ececec;
 }
 
-.header-navigation {
+.main__nav {
   display: flex;
   align-items: center;
 }
 
-.header-logo {
+.header__navigation {
+  display: flex;
+  align-items: center;
+}
+
+.header__logo {
   display: block;
   font-family: var(--raleway);
   font-weight: 700;
@@ -330,23 +322,23 @@ button {
   text-decoration: none;
 }
 
-.header-studio {
+.header__studio {
   font-family: var(--raleway);
   color: #000000;
 }
 
-.header-list {
+.header__list {
   list-style-type: none;
   align-items: center;
   display: flex;
   margin-left: 93px;
 }
 
-.header-list .header-item:not(:last-child) {
+.header__list .header__item:not(:last-child) {
   margin-right: 50px;
 }
 
-.header-link {
+.header__link {
   color: var(--main-link-color);
   text-decoration: none;
   font-weight: 500;
@@ -360,7 +352,7 @@ button {
   position: relative;
   transition: color var(--cubic), var(--transition-timing);
 }
-.header-link:hover, .header-link:focus {
+.header__link:hover, .header__link:focus {
   color: #2196f3;
 }
 
@@ -379,21 +371,21 @@ button {
   background-color: #2196f3;
 }
 
-.header-contact {
+.header__contact {
   display: flex;
   margin-left: auto;
 }
 
-.header-img-logo {
+.header__img--logo {
   margin-right: 10px;
 }
 
-.header-mail,
-.header-tel {
+.header__mail,
+.header__tel {
   color: var(--main-text-color);
 }
 
-.header-contact .header-contact-link:not(:last-child) {
+.header__contact .header__contact--link:not(:last-child) {
   margin-right: 50px;
 }
 
@@ -409,7 +401,7 @@ button {
   background-size: cover;
 }
 
-.hero-title {
+.hero__title {
   font-family: "Roboto";
   font-weight: 900;
   font-size: 44px;
@@ -422,7 +414,7 @@ button {
   margin-bottom: 30px;
 }
 
-.hero-btn {
+.hero__btn {
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -443,7 +435,7 @@ button {
   border-radius: 4px;
   transition: color var(--cubic) var(--transition-timing), background-color var(--cubic) var(--transition-timing);
 }
-.hero-btn:hover, .hero-btn:focus {
+.hero__btn:hover, .hero__btn:focus {
   background-color: #188ce8;
 }
 
@@ -451,19 +443,19 @@ button {
   padding: 94px 0;
 }
 
-.features-list {
+.features__list {
   list-style-type: none;
   display: flex;
 }
 
-.features-item {
+.features__item {
   width: 270px;
 }
-.features-list .features-item:not(:last-child) {
+.features__list .features__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.features-logo {
+.features__logo {
   width: 270px;
   height: 120px;
   display: flex;
@@ -473,11 +465,11 @@ button {
   margin-bottom: 30px;
 }
 
-.features-img-logo {
+.features__img {
   fill: currentColor;
 }
 
-.item-title {
+.futures__title {
   color: var(--main-link-color);
   font-weight: 700;
   font-size: 14px;
@@ -486,7 +478,7 @@ button {
   margin-bottom: 10px;
 }
 
-.item-text {
+.futures__text {
   line-height: 1.71;
 }
 
@@ -544,7 +536,7 @@ button {
   padding-bottom: 94px;
 }
 
-.team-title {
+.team__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -554,25 +546,25 @@ button {
   text-align: center;
 }
 
-.team-list {
+.team__list {
   display: flex;
 }
 
-.team-discription {
+.team__discription {
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
-.team-item {
+.team__item {
   background-color: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-.team-list .team-item:not(:last-child) {
+.team__list .team__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.team-item-title {
+.team__item--title {
   font-family: "Roboto";
   font-weight: 500;
   font-size: 16px;
@@ -582,7 +574,7 @@ button {
   text-align: center;
 }
 
-.team-text {
+.team__text {
   font-size: 16px;
   line-height: 1.18;
   color: #757575;
@@ -590,7 +582,7 @@ button {
   text-align: center;
 }
 
-.team-list-icon {
+.team__list--icon {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -598,7 +590,7 @@ button {
   gap: 10px;
 }
 
-.team-address-icon {
+.team__address--icon {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -609,12 +601,12 @@ button {
   height: 44px;
   transition: color var(--cubic) var(--transition-timing), background var(--cubic) var(--transition-timing);
 }
-.team-address-icon:hover, .team-address-icon:focus {
+.team__address--icon:hover, .team__address--icon:focus {
   background: var(--main-order-service);
   color: var(--main-btn-color);
 }
 
-.team-icon {
+.team__icon {
   fill: currentColor;
   width: 20px;
   height: 20px;
@@ -624,7 +616,7 @@ button {
   padding: 94px 0;
 }
 
-.customers-title {
+.customers__title {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -635,7 +627,7 @@ button {
   color: #212121;
 }
 
-.customers-logo {
+.customers__logo {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -643,7 +635,7 @@ button {
   margin-top: 50px;
 }
 
-.customers-link-logo {
+.customers__link {
   display: flex;
   width: 170px;
   height: 92px;
@@ -654,12 +646,12 @@ button {
   border-radius: 4px;
   transition: color var(--cubic) var(--transition-timing), border-color var(--cubic) var(--transition-timing);
 }
-.customers-link-logo:hover, .customers-link-logo:focus {
+.customers__link:hover, .customers__link:focus {
   color: var(--main-order-service);
   border-color: var(--main-order-service);
 }
 
-.costomers-img-logo {
+.costomers__img {
   fill: currentColor;
 }
 
@@ -984,6 +976,14 @@ button {
 
 .footer-icon:hover {
   fill: currentColor;
+}
+
+body {
+  font-family: "roboto", sans-serif;
+  background-color: #ffffff;
+  color: var(--main-Portfolio-text-color);
+  font-size: 14px;
+  letter-spacing: 0.03em;
 }
 
 :root {
